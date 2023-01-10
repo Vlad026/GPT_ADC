@@ -111,9 +111,10 @@
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/default/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
+    <itemPath>../../3chADC.pdf</itemPath>
   </logicalFolder>
   <sourceRootList>
-    <Elem>../src</Elem>
+    <Elem>../..</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>

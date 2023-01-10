@@ -44,7 +44,6 @@ static int32_t adc3ToI (uint32_t adc) {
     static int32_t i = 0, n = 0; // current  
     static uint32_t adc_mA[][2] = { // table of convert adc to I, calibr 1
         {113,  -100},
-        //{2045,  0},
         {3954,  100}};   
     i = (adc - adc_mA[n][0]) * (adc_mA[n+1][1] - adc_mA[n][1]) / (adc_mA[n+1][0] - adc_mA[n][0]) + adc_mA[n][1];
     if (i > 100) i = 100;
